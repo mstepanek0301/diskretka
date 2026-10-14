@@ -26,6 +26,10 @@ table {
 	margin-right: auto;
 }
 
+img {
+	max-width: 100%;
+}
+
 #hw {
 	scroll-margin-top: 8px;
 }
