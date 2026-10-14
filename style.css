@@ -1,6 +1,6 @@
 @media print {
 	html {
-		font-size: 9pt;
+		font-size: 11pt;
 	}
 	a {
 		color: inherit;
@@ -13,7 +13,17 @@
 
 html {
 	scroll-behavior: smooth;
-	color-scheme: light dark;
+}
+
+figure {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #hw {
@@ -26,4 +36,8 @@ html {
 		margin-left: auto;
 		margin-right: auto;
 	}
+}
+
+.condensed p {
+	margin: 0.5em 0;
 }

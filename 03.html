@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<title>Kombinatorické počítání &ndash; cvičení z diskrétní matematiky</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<p><a href="index.html">Diskrétní matematika</a><br/>3. cvičení &ndash; 15.10.2026</p>
+<h1>Kombinatorické počítání</h1>
+<p>Na domácí úkol je <a href="#hw">úloha 6</a>. Termín je 22.10.</p>
+<p><b>Úloha 1.</b> Káťa se rozhoduje, jak se oblékne do sportovního klubu. Musí si vzít jedno tričko, jedny kraťasy, jedny ponožky a jedny tenisky. K tomu si může (ale nemusí) dát do vlasů jednu mašli. V šatníku má bílé, žluté, zelené, modré a červené tričko; bílé, černé a šedé kraťasy a mašle; bílé, červené a oranžové ponožky; a konečně bílé a černé tenisky. Káťa si bílé ponožky vezme jedině tehdy, když je celý její outfit bílý (včetně mašle, pokud si ji bere). Kolika různými způsoby se může obléknout?</p>
+<p><i>Poznámka:</i> Káťa si nechce oblékat dvě ponožky různých barev ani obouvat dvě různě barevné tenisky.</p>
+<p><b>Úloha 2.</b> Digitální hodiny ukazují čas od 00:00 do 23:59. Kolikrát během jednoho dne jsou na displeji právě čtyři z pěti číslic 1, 2, 3, 4, 5 (v libovolném pořadí)?</p>
+<p><b>Úloha 3.</b> Naty má tři různé šestistěnné kostky: červenou, modrou a žlutou. Jejich stěny jsou klasicky označené čísly od 1 do 6. Naty hodila všemi kostkami najednou a sečetla čísla, která jí padla. Kolika různými způsoby mohla dohromady hodit 8?</p>
+<p><b>Úloha 4.</b> Na obrázku je znázorněn hrozen vína. Bobuli z hroznu lze sníst pouze tehdy, pokud již byly snězeny všechny bobule přímo pod ní (tedy jedna nebo dvě bobule, kterých se dotýká spodkem). Například bobuli D je nutné sníst dříve než bobule A a B. Kolika různými způsoby lze takto sníst celý hrozen?</p>
+<figure>
+	<img src="03_strapec.png" alt="V prvním řádku A, B, C, pod A a B je D, pod B a C je E, a pod D a E je F."/>
+</figure>
+<p><b>Úloha 5.</b> Při komunikaci s orbitální družicí vybíráme šestici různých kanálů z množiny {1, 2, &hellip;, 13}. Rozhodující je pouze samotné složení vybrané šestice &ndash; na pořadí, v jakém kanály zvolíme, nezáleží. Abychom dosáhli optimální přenosové rychlosti, musí výběr obsahovat alespoň jednu dvojici kanálů, jejichž čísla se liší o lichou hodnotu. Kolik takových šestic kanálů lze vytvořit?</p>
+<p>
+<p id="hw"><b>Úloha 6.</b> Pět matfyzáků si vybírá sedadla na divadelní představení. Všichni chtějí sedět v jedné řadě, která vypadá následovně:</p>
+<figure>
+	<img style="width: 400px" src="03_stolicky.png" alt="Zeď, čtyři šestice sedadel oddělené třemi uličkami a druhá zeď."/>
+</figure>
+<p>Matfyzáci jsou stydliví, a tak si chtějí vybrat pět sedadel tak, aby &ndash; i kdyby byla všechna ostatní sedadla obsazená &ndash; mohli svá místa opustit, aniž by kvůli nim museli vstávat cizí lidé. Kolik takových pětiprvkových sad sedadel existuje?</p>
+<p><b>Úloha 7.</b> Starodávnou říši střeží tři magické školy: škola Ohně, škola Vody a škola Země. Každá škola je tvořena dvěma mistry a dvěma učni. Na ochranu říše proti temným čarodějům je potřeba vyslat čtyři dvojice. Ve dvojici bude vždy jeden mistr a jeden učeň, každý z jiné školy. Každá škola vyšle alespoň jednoho mistra a alespoň jednoho učně. Kolika způsoby mohou být tyto dvojice utvořeny?</p>
+<p><i>Poznámka:</i> Záleží na tom, který konkrétní mistr či učeň bude do dvojice vyslán (jedná se o unikátní osoby), nezáleží ale na pořadí daných čtyř dvojic.</p>
+<p><b>Úloha 8.</b> Máme pyramidu výšky 4 a chceme každý z jejích deseti dílků obarvit bíle, šedě nebo černě tak, aby každá dílčí pyramida výšky 2 (orientovaná směrem vzhůru) byla jednobarevná nebo trojbarevná. Kolika způsoby to můžeme udělat? Příklad správného obarvení je na obrázku.</p>
+<figure>
+	<img style="width: 100px" src="03_pyramida.png" alt=""/>
+</figure>
+<p><b>Úloha 9.</b> Klárka vyplnila tabulku 3 &times; 3 číslicemi 0, 1, &hellip;, 9 tak, že každé políčko obsahuje právě jednu číslici, žádná číslice se neopakuje, a navíc, když Klárka sečte čísla v kterémkoli řádku nebo sloupci, vyjde jí buď vždy liché, nebo vždy sudé číslo. Kolika způsoby mohla tabulku vyplnit? Uvádíme příklad tabulky, kde je všech šest součtů sudých:</p>
+<figure>
+<table>
+	<tr>
+		<td>1</td>
+		<td>2</td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>4</td>
+		<td>7</td>
+	</tr>
+	<tr>
+		<td>6</td>
+		<td>0</td>
+		<td>8</td>
+	</tr>
+</table>
+</figure>
+<p><b>Úloha 10.</b> Na krychlové planetě jménem Zeměkrychle se nachází osm měst, v každém z jejích vrcholů jedno. Na planetě jsou vybudovány železniční koleje vedoucí po všech hranách krychle, a navíc ještě čtyři železniční tunely vedoucí vnitřkem planety, které spojují města ležící v protilehlých vrcholech. Do města A přijel návštěvník a vyrazil vlakem na cestu po planetě, která skončila v sousedním městě B (vrcholy A a B sdílejí hranu). Jeho trasa se skládala právě z pěti úseků trati a neprocházela žádným městem více než jednou. Navíc vedla alespoň jedním tunelem. Kolik takových tras mezi A a B existuje? Na obrázku vidíte příklad trasy splňující zadání.</p>
+<figure>
+	<img style="width: 150px" src="03_kocka.png" alt=""/>
+</figure>
+<p><b>Úloha 11.</b> &#127798; Anička má 9000 shodných rovnostranných trojúhelníků. Všechny je bez překryvu uspořádala do tvaru jednoho jediného čtyřúhelníku. Kolik různých čtyřúhelníků takto mohla vytvořit? Shodné čtyřúhelníky považujeme za totožné.</p>
+<p><b>Úloha 12.</b> &#127798; Kuba po nocích vyrábí vánoční světýlka, tedy řetězy s 10 žárovkami, a k dispozici má žluté a modré žárovky. Zařekl se, že se na řetězu nebude vyskytovat žádný úsek čtyř po sobě jdoucích žárovek, ve kterém by se barvy pravidelně střídaly (tedy ani žlutá &ndash; modrá &ndash; žlutá &ndash; modrá, ani naopak). Kolik různých řetězů umí Kuba vyrobit? (Kubovy řetězy mají odlišený začátek a konec.)</p>
+</body>
+<h2>Hinty</h2>
+<p><b>Hint 5.</b> Jak by vypadali ty špatné šestice, tedy takové, kde mají čísla každé dvojice kanálů sudý rozdíl?</p>
+<p><b>Hint 7.</b> Právě jedna škola musí vyslat dva mistře a právě jedna škola dva učně. Rozděl podle toho, jestli je to ta stejná škola nebo dvě různé.</p>
+<p><b>Hint 8.</b> Co je nejmenší část pyramidy, že když známe její obarvení, tak se dá zbytek určit jednoznačně?</p>
+<p><b>Hint 9.</b> Zajímají nás jen parity čísel. Řádek má sudý součet, pokud je v něm sudý počet lichých čísel. Kolik musí být lichých čísel a jak se dají rozdělit?</p>
+<p><b>Hint 10.</b> Obarvi města jako šachovnici.</p>
+<p><b>Hint 11.</b> Může to být rovnoběžník nebo lichoběžník. Pak je to teorie čísel.</p>
+<p><b>Hint 12.</b> Zakázat střídavé posloupnosti je to stejné jako zakázat jednobarevné posloupnosti. Pak najdi rekurentní vyjádření.</p>
+<h2>Zdroj</h2>
+<p>Úlohy jsou převzaté z <a href="https://math.naboj.org/cz/cs/archive/29/problems/">Matematického Náboje 2026</a>.</p>
+</html>
