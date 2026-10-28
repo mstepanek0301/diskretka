@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<title>Indukce &ndash; cvičení z diskrétní matematiky</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href="style.css"/>
+<style>
+	@media print {html {font-size: 10pt;}}
+</style>
+</head>
+<body>
+<p><a href="index.html">Diskrétní matematika</a><br/>5. cvičení &ndash; 29.10.2026</p>
+<h1>Indukce</h1>
+<p>Na domácí úkol je <a href="#hw">úloha 6</a>. Termín je 5.11.</p>
+<p><b>Úloha 1.</b> Dokaž, že pro všechna kladná celá <var>n</var> platí 1 + 2 + &hellip; + <var>n</var> = <var>n</var>(<var>n</var> + 1)/2.</p>
+<p><b>Úloha 2.</b> Dokaž, že pro všechna kladná celá <var>n</var> platí 1<sup>2</sup> + 2<sup>2</sup> + &hellip; + <var>n</var><sup>2</sup> = <var>n</var>(<var>n</var> + 1)(2<var>n</var> + 1)/6.</p>
+<p><b>Úloha 3.</b> Dokaž, že každé celé číslo <var>n</var> &geq; 12 se dá zapsat jako součet několika čtyřek a pětek.</p>
+<p><b>Úloha 4.</b> Dokaž, že pro všechna kladná celá <var>n</var> se dá trojkostičkami tvaru L pokrýt šachovnice 2<sup><var>n</var></sup> &times; 2<sup><var>n</var></sup>, ze které jsme odstránili jedno políčko.</p>
+<p><b>Úloha 5.</b> Mějme <var>n</var> přímek v rovině, z nichž žádné dvě nejsou rovnoběžné a žádné tři se neprotínají v jednom bodě. Dokaž, že dělí rovinu na <var>n</var>(<var>n</var> + 1)/2 + 1 částí.</p>
+<p id="hw"><b>Úloha 6.</b> Mějme reálné číslo <var>x</var> takové, že <var>x</var> + 1/<var>x</var> je celé číslo. Dokaž, že pak i <var>x</var><sup><var>n</var></sup> + 1/<var>x</var><sup><var>n</var></sup> je celé číslo pro libovolné přirozené <var>n</var>.</p>
+<p><b>Úloha 7.</b> Dokaž, že mezi každými 2<sup><var>n</var> + 1</sup> čísly se dá najít 2<sup><var>n</var></sup> takových, že jejich součet je dělitelný 2<sup><var>n</var></sup>.</p>
+<p><b>Úloha 8.</b> Nechť <var>a</var><sub>0</sub> = 9 a <var>a</var><sub><var>n</var> + 1</sub> = 3<var>a</var><sub><var>n</var></sub><sup>4</sup> + 4<var>a</var><sub><var>n</var></sub><sup>3</sup> pro <var>n</var> &geq; 1. Dokaž, že <var>a</var><sub>10</sub> obsahuje v desítkovém zápisu víc než 1000 devítek.</p>
+<p><b>Úloha 9.</b> &#127798; Nechť <var>a</var><sub>1</sub>, <var>a</var><sub>2</sub>, &hellip; <var>a</var><sub><var>n</var></sub> jsou různá kladná celá čísla a nechť <var>M</var> je množina <var>n</var> &minus; 1 kladných celých čísel neobsahující <var>s</var> = <var>a</var><sub>1</sub> + <var>a</var><sub>2</sub> + &hellip; + <var>a</var><sub><var>n</var></sub>. Žába skáče po reálné ose. Začíná v bodě 0 a udělá postupně skoky s délkami <var>a</var><sub>1</sub>, <var>a</var><sub>2</sub>, &hellip; <var>a</var><sub><var>n</var></sub> v nějakém pořadí. Dokaž, že si umí vybrat takové pořadí, aby se vyhla všem bodům z <var>M</var>. (<a href="https://www.imo-official.org/assets/documents/problems/2009/2009_eng.pdf">IMO 2009/6</a>)</p>
+<h2 class="newpage">Hinty</h2>
+<p><b>Hint 3.</b> Většinou stačí nahradit čtyřku pětkou.</p>
+<p><b>Hint 4.</b> Z L-ek se dá poskládat větší L-ko.</p>
+<p><b>Hint 5.</b> Když přidáš přímku, kolik nových průsečíků vznikne? A jak vzniknou nové oblasti?</p>
+<p><b>Hint 6.</b> Podívej se na (<var>x</var> + 1/<var>x</var>)<sup><var>n</var></sup>.</p>
+<p><b>Hint 7.</b> Rozděl na půlky a indukuj. Jestli z nich neumíš složit řešení, tak najdi ještě další prvky, na kterých by se dalo indukovat.</p>
+<p><b>Hint 8.</b> Na konci budou přibývat devítky. Dokáže se to jen algebraickými úpravami.</p>
+<p><b>Hint 9.</b> Indukuj bez najvětšího skoku a nejkrajnějšího zakázaného místa. Když řešení z indukce nefunguje po přidání toho posledního zakázaného místa, tak ho pořád umíš opravit.</p>
+<h2>Zdroje</h2>
+<ul>
+	<li><a href="https://prase.cz/library/IndukceAD/IndukceAD.pdf">Anička Doležalová: <i>Indukce</i>, PraSe knihovna</a></li>
+	<li><a href="https://prase.cz/library/IndukceBezKralikuJH/IndukceBezKralikuJH.pdf">Jaroslav &bdquo;Jardáč&ldquo; Hančl: <i>Indukce bez králíků</i>, PraSe knihovna</a></li>
+	<li><a href="https://prase.cz/archive/41/serial.pdf"><i>Matematická indukce</i>, PraSe seriál</a></li>
+</ul>
+</ul>
+</body>
+</html>
