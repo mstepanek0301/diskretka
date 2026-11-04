@@ -1,6 +1,6 @@
 @media print {
 	html {
-		font-size: 11pt;
+		font-size: 10pt;
 	}
 	a {
 		color: inherit;
@@ -44,4 +44,22 @@ img {
 
 .condensed p {
 	margin: 0.5em 0;
+}
+
+.math {
+	margin: 1em 0;
+	text-align: center;
+}
+
+.math table {
+	display: inline-table;
+	vertical-align: middle;
+}
+
+.brackets {
+	padding: 0 0.2em;
+	margin: 0 0.2em;
+	border-left: 2px black solid;
+	border-right: 2px black solid;
+	border-radius: 0.5em / 1em;
 }

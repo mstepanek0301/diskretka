@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<title>Princip inkluze a exkluze + opakování &ndash; cvičení z diskrétní matematiky</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<p><a href="index.html">Diskrétní matematika</a><br/>6. cvičení &ndash; 5.11.2026</p>
+<h1>Princip inkluze a exkluze + opakování</h1>
+<p>Domácí úkol je v <a href="https://owl.mff.cuni.cz/c/zs2627/diskretka-stepi-26/6/">sovičce</a>. Termín je 12.11.</p>
+<p><b>Příklad.</b> V autobuse je celkem 102 cestujících. 49 z nich mluví albánsky, 34 bulharsky a 21 chorvatsky. Sedm lidí ovládá albánštinu a bulharštinu, pět albánštinu a chorvatštinu, devět bulharštinu a chorvatštinu. Všemi třemi jazyky mluví dva lidé. Kolik z cestujících nemluví žádným z těchto tří jazyků?</p>
+<p><b>Příklad.</b> Dokažte</p>
+<div class="math">
+	<var>k</var><table class="brackets">
+		<tr><td><var>n</var></td></tr>
+		<tr><td><var>k</var></td></tr>
+	</table> =
+	<var>n</var><table class="brackets">
+		<tr><td><var>n</var> &minus; 1</td></tr>
+		<tr><td><var>k</var> &minus; 1</td></tr>
+	</table>
+</div>
+<p><b>Úloha 1.</b> Máme pytlík s 6 černými a 5 červenými kuličkami. 2 náhodně vytáhneme. Je pravděpodobnější, že budou mít stejnou barvu, nebo různou?</p>
+<p>Bonus: Umíte výsledek zobecnit?</p>
+<p><b>Úloha 2.</b> Kolik přirozených čísel mezi 1 a 100 (včetně) není dělitelných 2, 3 ani 5?
+a co když nesmí být dělitelná ani 67?</p>
+<p><b>Úloha 3.</b> Mějme balíček 52 karet, klasicky máme 4 barvy a od každé 13 karet. Kolika způsoby můžeme vybrat 5 karet, abychom měli aspoň jednu kartu od každé barvy?</p>
+<p><b>Úloha 4.</b> Máme 3 zlaté mince, 4 stříbrné a 5 bronzových. Kolika způsoby lze z nich vybrat 10 mincí?</p>
+<p><b>Úloha 5.</b> Dokažte</p>
+<div class="math">
+	<table class="brackets">
+		<tr><td><var>n</var></td></tr>
+		<tr><td>0</td></tr>
+	</table><sup>2</sup> +
+	<table class="brackets">
+		<tr><td><var>n</var></td></tr>
+		<tr><td>1</td></tr>
+	</table><sup>2</sup> +
+	&hellip; +
+	<table class="brackets">
+		<tr><td><var>n</var></td></tr>
+		<tr><td><var>n</var></td></tr>
+	</table><sup>2</sup> =
+	<table class="brackets">
+		<tr><td>2<var>n</var></td></tr>
+		<tr><td><var>n</var></td></tr>
+	</table>
+</div>
+<p><b>Úloha 6.</b> Petr má čokoládu, která má tvar tabulky <var>n</var> &times; <var>m</var>. Kolikrát nejméně ji musí rozlomit, aby získal <var>mn</var> dílků 1 &times; 1? Lámat ji může po přímkách. A co kdyby ji chtěl rozlomit co nejvíckrát? :)</p>
+<p class="newpage"><b>Úloha 7.</b> Na plese je <var>n</var> manželských párů. Kolika způsoby se mohou rozdělit do dvojic tak, aby žádný z párů netančil spolu? (můžete předpokládat, že páry jsou vždy muž a žena a muži tančí jen s ženami)(a nebo to můžete nepředpokládat).</p>
+<p><b>Úloha 8.</b> &#127798; Do 100místného letadla nastupuje 100 cestujících, každý má svoji místenku. První cestující ale svoji ztratil a tak si sedne náhodně. Každý další si sedne na své místo, pokud je volné, jinak si sedne náhodně. Jaká je pravděpodobnost, že poslední příchozí bude sedět na svém místě?</p>
+<p><b>Úloha 9.</b> &#127798; Dokaž, pro každé číslo <var>n</var> existuje násobek <var>n</var>  složený jen z nul a jedniček (a obsahuje alespoň jednu jedničku).</p>
+<h2>Hinty</h2>
+<p><b>Hint 3.</b> Počítej neuspořádané dvojice. Právě jednu barvu musíš vybrat dvakrát.</p>
+<p><b>Hint 4.</b> Spočítej všechny uspořádané výběry a pak vyděl permutacemi, co nic nemění.</p>
+<p><b>Hint 5.</b> Rozděl 2<var>n</var> prvků na prvních <var>n</var> a druhých <var>n</var> a vybírej nejdřív z první půlky a pak z druhé.</p>
+<p><b>Hint 6.</b> Jak se mění počet dílků, na které je čokoláda rozlomená?</p>
+<p><b>Hint 7.</b> Verze s muži a ženami je to stejné jako problém šatnářky. Ta druhá verze se dá udělat podobně, akorát nepočítáme permutace, ale rozdělení do párů.</p>
+<p><b>Hint 8.</b> Představ si, že když někdo najde své místo obsazené, tak si tam přesto sedne a pošle toho člověka, co tam seděl předtím, aby si vybral jiné náhodné místo.</p>
+<p><b>Hint 9.</b> Podívej se na zbytky 11&hellip;1 modulo <var>n</var>.</p>
+</body>
+</html>
