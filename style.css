@@ -40,6 +40,8 @@ img {
 		margin-left: auto;
 		margin-right: auto;
 	}
+	
+	.print-only { display: none; }
 }
 
 .condensed p {

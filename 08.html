@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<title>Stromy a cesty &ndash; cvičení z diskrétní matematiky</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<p><a href="index.html">Diskrétní matematika</a><br/>8. cvičení &ndash; 19.11.2026
+<span class="print-only"><br/>mstepanek0301.github.io/diskretka</span>
+</p>
+<h1>Stromy a cesty</h1>
+<p>Na domácí úkol je <a href="#hw">úloha 5</a>. Termín je 26.11.</p>
+<p><b>Úloha 1.</b> Dokaž, že každý strom s aspoň dvěma vrcholy má aspoň dva listy.</p>
+<p><b>Úloha 2.</b> Dokaž, že každý strom má aspoň tolik listů, kolik je v něm největší stupeň.</p>
+<p><b>Úloha 3.</b> Dokaž, že v každém stromě existuje hrana, která spájí dva vrcholy s lichým stupněm, nebo dva vrcholy se sudým stupněm.</p>
+<p><b>Úloha 4.</b> Nechť <var>G</var> je graf a <var>u</var>&nbsp;&in;&nbsp;<var>G</var> je vrchol s lichým stupněm. Dokaž, že existuje cesta z <var>u</var> do jiného vrcholu <var>v</var>&nbsp;&in;&nbsp;<var>G</var>, který má taky lichý stupeň.</p>
+<p id="hw"><b>Úloha 5.</b> Ve vesnici má každý člověk sudý počet kamarádů. Každý může od každého svého kamaráda dostat minci, nebo mu dát minci. Dokaž, že si můžou předat mince tak, aby aby měl každý na konec tolik mincí jako na začátku.</p>
+<p><b>Úloha 6.</b> 20 fotbalových týmů hrálo první den zápas vždy s nějakým jedním týmem a druhý den stejně tak. Dokaž, že existuje 10 týmů takových, že žádná dvojice z nich ještě nehrála spolu zápas.</p>
+<p><b>Úloha 7.</b> Dokaž, že v libovolném souvislém grafu existují dva vrcholy takové, že když z grafu odstráníme kterýkoliv z nich, graf bude stále souvislý.</p>
+<p><b>Úloha 8.</b> Definujeme <i>osamělost</i> vrcholu ve stromě jako součet jeho vzdáleností od všech ostatních vrcholů. Dokaž, že pokud se v nějakém strome osamělost nějakých dvou vrcholů liší přesně o 1, pak musí mít tento strom lichý počet vrcholů.</p>
+<h2 class="newpage">Hinty</h2>
+<p><b>Hint 2.</b> Jak bude vypadat ten graf, když z něho odstráníš vrchol s maximálním stupněm?</p>
+<p><b>Hint 3.</b> Sporem. Co by se stalo, kdyby tam byly vrcholy se sudým i lichým stupněm? Co by se stalo, kdyby byly všechny stupně sudé a co když všechny liché?</p>
+<p><b>Hint 4.</b> Prodloužuj cestu, dokud to jde. Nebo se podívej na komponent souvislosti, ve kterém je <var>u</var>, když tam najdeš nějaký vrchol, tak cesta do něj bude existovat automaticky.</p>
+<p><b>Hint 5.</b> Když si nějaká skupinka kamarádů podá mince do kruhu, tak budou mít stejně jako na začátku.</p>
+<p><b>Hint 6.</b> Jak vypadá ten graf?</p>
+<p><b>Hint 7.</b> Indukce. Zkus odstránit libovolný vrchol <var>v</var>, a jestli to nevyjde, radši odstraň vrcholy z nějakých komponentů, co by zbyly po odstránění <var>v</var>.</p>
+<p><b>Hint 8.</b> Jak se liší osamělost sousedů?</p>
+<h2>Zdroje</h2>
+<ul>
+	<li><a href="https://prase.cz/library/StromyVG/StromyVG.pdf">Vojta Gaďurek: <i>Stromy</i>, PraSe knihovna</a></li>
+	<li lang="sk"><a href="https://materialy.kms.sk/pdfs/Prednášky_KMS-2.pdf">Barbora Novosadová: <i>Grafy</i>, KMS materiálovňa</a></li>
+	<li lang="sk"><a href="https://materialy.kms.sk/pdfs/MOgrafy.pdf">Jakub Krivošík: <i>Grafové úlohy v olympiáde</i>, KMS materiálovňa</a></li>
+	<li><a href="https://prase.cz/library/GrafyJS/GrafyJS.pdf">Kuba Svoboda: <i>Tématické grafové úlohy</i>, PraSe knihovna</a></li>
+</ul>
+</body>
+</html>
